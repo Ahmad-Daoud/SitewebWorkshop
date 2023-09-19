@@ -74,6 +74,11 @@ body {
     left: 40.55%;
     text-align: center;
     z-index: 3;
+    transition-duration: 0.5s;
 }
 
-.b5:hoover
+.b5:hover
+{
+    scale: 110%;
+    transition-duration: 1s;
+}
