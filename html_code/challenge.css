@@ -23,6 +23,9 @@ a{
     font-family: 'josefin sans';
     transition-duration: 1s;
 }
+body{
+    background-color: #3C7A89;
+}
 .nomequipe:hover{
     font-size: 35px;
     transition-duration: 2s;
