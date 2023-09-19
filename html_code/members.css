@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh; /* Assure que la grille occupe toute la hauteur de la fenêtre */
+}
+
+/* Style spécifique pour chaque bloc */
+.b1b {
+    background-color:#00B9B5;
+    border-right: black 6px solid;
+    border-bottom: black 6px solid;
+    z-index: 1;       
+    height: 100%; 
+    width: 100%;
+}
+.b1a {
+    background-color:#00B9B5;
+    border-right: #E4E4E4 3px solid;
+    border-bottom: #E4E4E4 3px solid;
+    z-index: 2;  
+}
+
+.b2b {
+    background-color:#F8EA18;
+    border-left: black 3px solid;
+    border-bottom: black 6px solid;
+    z-index: 1;
+    height: 100%; 
+    width: 100%;
+}
+.b2a {
+    background-color:#F8EA18;
+    border-left: #E4E4E4 3px solid;
+    border-bottom: #E4E4E4 3px solid;
+    z-index: 2;  
+}
+
+.b3b {
+    background-color:#F8EA18;
+    border-right: black 6px solid;
+    border-top: black 3px solid;
+    z-index: 1;
+    height: 100%; 
+    width: 100%;
+}
+.b3a {
+    background-color:#F8EA18;
+    border-right: #E4E4E4 3px solid;
+    border-top: #E4E4E4 3px solid;
+    z-index: 2;
+}
+
+.b4b {
+    background-color:#00B9B5;
+    border-left: black 3px solid;
+    border-top: black 3px solid;
+    z-index: 1;
+    height: 100%; 
+    width: 100%;
+}
+.b4a {
+    background-color:#00B9B5;
+    border-left: #E4E4E4 3px solid;
+    border-top: #E4E4E4 3px solid;
+    z-index: 2;
+}
+
+.b5{
+    position: absolute;
+    top: 28%;
+    left: 40.55%;
+    text-align: center;
+    z-index: 3;
+    transition-duration: 0.5s;
+}
+
+.b5:hover
+{
+    scale: 110%;
+    transition-duration: 1s;
+}

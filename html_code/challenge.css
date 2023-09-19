@@ -2,10 +2,6 @@ a{
     text-decoration: none;
     color: inherit;
 }
-body{
-    background-color: #3C7A89;
-    margin: 0 !important;
-}
 .header{
     width: 100%;
     height: 30%;
@@ -26,6 +22,11 @@ body{
     padding-bottom: 2.5%;
     font-family: 'josefin sans';
     transition-duration: 1s;
+}
+body{
+    background-color: #3C7A89;
+    margin: 0 !important;
+
 }
 .nomequipe:hover{
     font-size: 35px;
