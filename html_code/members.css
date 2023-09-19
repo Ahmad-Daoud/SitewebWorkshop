@@ -82,21 +82,36 @@ body {
     scale: 110%;
     transition-duration: 1s;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Annimation effet shine (test)
+
+
 .b5:before {
     content: '';
     position: absolute;
-    top: 70px;
-    left: -100px;
+    top: 90px;
+    left: 0px;
     width: 70px;
-    height: 50%;
+    height: 30%;
     background: rgba(255,255,255, 0.3);
     transform: skewX(-30deg);
     animation-name: slide;
-    animation-duration: 4s;
+    animation-duration: 15s;
     animation-timing-function: ease-in-out;
     animation-delay: .3s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
     background: linear-gradient(
         to right, 
         rgba(255, 255, 255, 0.13) 0%,
@@ -108,11 +123,40 @@ body {
     @keyframes slide {
       0% {
         left: 0px;
-        top: 50px;
-      }
+        top: 110px;
 
-      100% {
-        left: 150px;
-        top: 50px;
       }
-    }
+      20%{
+        left: 40px;
+        top: 65px;
+        height: 50%;
+      }
+      40%{
+        left: 60px;
+        top: 65px;
+      }
+      65%{
+        left: 80px;
+        top: 80px;
+      }
+      75%{
+        left: 100px;
+        top: 100px;
+      }
+      85% {
+        left: 150px;
+        top: 110px;
+      }
+      90%{
+        left: 160px;
+        top: 120px;
+      }
+      95%{
+        left: 160px;
+        top: 140px;
+      }
+      100%{
+        left: 160px;
+        top: 170px;
+      }
+    } */
