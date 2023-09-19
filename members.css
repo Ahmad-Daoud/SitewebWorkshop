@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    height: 100vh; /* Assure que la grille occupe toute la hauteur de la fenêtre */
+}
+
+/* Style spécifique pour chaque bloc */
+.b1 {
+    background-color: #f0f0f0;
+    z-index: 1;
+}
+.b2 {
+    background-color: #e0e0e0;
+    z-index: 1;
+}
+.b3 {
+    background-color: #d0d0d0;
+    z-index: 1;
+}
+.b4 {
+    background-color: #c0c0c0;
+    z-index: 1;
+}
+.b5{
+    background-color: rgb(112, 112, 112);
+    position: absolute;
+    height: 250px;
+    width: 350px;
+    top: 33%;
+    left: 38%;
+    z-index: 2;
+}
