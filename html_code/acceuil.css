@@ -4,6 +4,7 @@ a{
 }
 body{
     background-color: #3C7A89;
+    margin: 0 !important;
 }
 .header{
     width: 100%;

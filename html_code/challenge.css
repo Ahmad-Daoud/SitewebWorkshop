@@ -25,6 +25,8 @@ a{
 }
 body{
     background-color: #3C7A89;
+    margin: 0 !important;
+
 }
 .nomequipe:hover{
     font-size: 35px;
