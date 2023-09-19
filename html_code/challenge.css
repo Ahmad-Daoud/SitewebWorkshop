@@ -8,7 +8,8 @@ a{
     font-size: 30px;
     background-color: #F8EA18;
     display: flex;
-    border-bottom: solid black 3px ;
+    border-bottom: solid black 3px;
+
 }
 .logo{
     width: 20%;
